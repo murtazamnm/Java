@@ -1,3 +1,13 @@
+/*
+Create a Rectangle class to represent a rectangle (it sides are parallel to the coordinate axis). 
+Store one of the vertex's x and y coordinate, the rectangle weight and height (double).
+Weight and height can be negative too. For example, let r instance data members x=1, y=5, width=6, height=-2, 
+in this case r's lower left vertex coordinates are 1 and 3.
+Define topLeft(), topRight(), and bottomLeft() methods returning the corresponding vertex of the rectangle as Point.
+Write the main program, which interprets its command line arguments as a sequence of rectangles, and calculate the 
+enclosing rectangle of the rectangles. The command line arguments shall be numbers (at least 4). Process these arguments 
+and write to the console the enclosing rectangle other vertexes.
+*/
 class RectangleMain {
     public static void main(String[] args) {
         Rectangle r = new Rectangle();
