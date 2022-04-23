@@ -1,8 +1,3 @@
-/*
-* Java Lab Assignment - Lab 05 - Exercise 2
-* Name Mortaza Ali Dar
-* Neptun: YLEU5X
-*/
 import basics.Matrix;
 public class MainMatrix {
     public static void main(String[] args) {
