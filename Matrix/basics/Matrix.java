@@ -9,7 +9,7 @@ public class Matrix {
     public Matrix(){
 
     }
-    //when the user wants to creat an empty array
+    //when the user wants to creat an empty Matrix
     public Matrix(int rowNum, int colNum){
         this.rowNum = rowNum;
         this.colNum = colNum;
