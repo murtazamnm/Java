@@ -1,22 +1,20 @@
-// 7 Marks + 1.5 Marks for all Packaging
-	  
-package exam.findsuitablejob;
+package java.findsuitablejob;
 
-public class Contract {  // 1 M
+public class Contract {  
 	protected String degree;
 	protected int numberOfEmployees;
     protected int contractPeriod;
 
 	protected static int goalSalary = 4000;
 
-	public static final int MAX_PERIOD_MONTH = 12; //0.5 M 
+	public static final int MAX_PERIOD_MONTH = 12; 
 	public static final int MIN_PERIOD_MONTH = 6;
 
 	public Contract() {   //0.5 mark
 		this("Master", 20, 12 );
 	}
 
-	public Contract(String degree, int numberOfEmployees,int contractPeriod) { //1.5 M
+	public Contract(String degree, int numberOfEmployees,int contractPeriod) { 
 		if (!isBetween(contractPeriod, MIN_PERIOD_MONTH, MAX_PERIOD_MONTH ))  throw new IllegalArgumentException();
 		if (!isBetween(numberOfEmployees, 15, 40))  throw new IllegalArgumentException();
 		
@@ -26,27 +24,27 @@ public class Contract {  // 1 M
 	
 	}
 
-	private boolean isBetween(int number, int min, int max) { //0.5
+	private boolean isBetween(int number, int min, int max) {
 		return min <= number && number <= max;
 	}
 
-	public void setGoalSalary(int x) { //0.5 M
+	public void setGoalSalary(int x) { 
 		goalSalary = x;
 	}
 	
-	public String toString() {  //1 M
+	public String toString() { 
 		return "the number of employees in this contract are :" + numberOfEmployees + "they are holding" + degree +" degree,and the period of this contract is:" + contractPeriod + "months.";
 	}
 
-	public int getNumberOfEmployees() { //0.5 M
+	public int getNumberOfEmployees() {
 		return numberOfEmployees;
 	}
 
-	public String getDegree() { //0.5
+	public String getDegree() { 
 		return degree;
 	}
 
-	public int getContractPeriod() { //0.5
+	public int getContractPeriod() {
 		return contractPeriod;
 	}
 }
