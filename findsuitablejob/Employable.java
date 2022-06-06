@@ -1,4 +1,4 @@
-package java.findsuitablejob; 
+package findsuitablejob; 
 
 interface Employable {  
 	public void getHiredAt(Position p); 
