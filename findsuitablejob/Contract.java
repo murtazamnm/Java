@@ -1,4 +1,4 @@
-package java.findsuitablejob;
+package findsuitablejob;
 
 public class Contract {  
 	protected String degree;
