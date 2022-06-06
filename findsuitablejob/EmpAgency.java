@@ -1,4 +1,4 @@
-package exam.findsuitablejob;
+package java.findsuitablejob;
 
 import java.io.*; //1
 import java.util.ArrayList;
