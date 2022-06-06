@@ -1,6 +1,6 @@
-package java.findsuitablejob;
+package findsuitablejob;
 
-import java.io.*; //1
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
