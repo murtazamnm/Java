@@ -1,15 +1,15 @@
-The goal of the algorithm is to find an approximate solution to a problem by making “educated guesses”.
-The algorithm will work on an Entity class.
-The algorithm takes a number of arguments. Most of these are lambdas(FunctionalInterfaces).
-First, populationCount entities are created using createRandomEntity().
-Then, doCrossover(Entity e1, Entity e2) is invoked on two random entities. This is repeated crossoverCount times.
-Then, mutateEntity(Entity e) is invoked on a randomly selected entity. 
-The method, with mutationProbability probability will change the entity in some way.
-Usually, mutationProbability is quite low, perhaps 0.1%.
-Then, calculateFitness(Entity e) calculates the fitness of each entity. 
-We only keep the best pruneCount entities; we fill up the remaining places with createRandomEntity().
-So far, we have generated a new generation out of the previous one. 
-We repeat these steps generationCount times, then return with the entity with the highest finess value of the last generation.
+The goal of the algorithm is to find an approximate solution to a problem by making “educated guesses”.  
+The algorithm will work on an Entity class.  
+The algorithm takes a number of arguments. Most of these are lambdas(FunctionalInterfaces).  
+First, populationCount entities are created using createRandomEntity().  
+Then, doCrossover(Entity e1, Entity e2) is invoked on two random entities. This is repeated crossoverCount times.  
+Then, mutateEntity(Entity e) is invoked on a randomly selected entity.  
+The method, with mutationProbability probability will change the entity in some way.  
+Usually, mutationProbability is quite low, perhaps 0.1%.  
+Then, calculateFitness(Entity e) calculates the fitness of each entity.  
+We only keep the best pruneCount entities; we fill up the remaining places with createRandomEntity().  
+So far, we have generated a new generation out of the previous one.  
+We repeat these steps generationCount times, then return with the entity with the highest finess value of the last generation.  
 
 To test the Algortihm:
 
