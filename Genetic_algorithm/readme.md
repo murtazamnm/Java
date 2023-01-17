@@ -11,14 +11,15 @@ We only keep the best pruneCount entities; we fill up the remaining places with 
 So far, we have generated a new generation out of the previous one. 
 We repeat these steps generationCount times, then return with the entity with the highest finess value of the last generation.
 
-To test the Algortihm--
--Write some text into a String, this will be the code to crack.
--You may limit your strings to lowercase English characters.
--The Entity class will contain a String now.
--The fitness value of an Entity shows how far its String is from the code.
--Compute the fitness of an Entity like this: add the difference of the lengths of the strings, plus the number of differing character positions.
--With this formula, the best fitness value is 0, which is reached when we have reached the code.
--A crossover between two Entitys splits both strings at random positions, and joins their first and second parts.
--A mutation changes a random character in the string of the Entity.
--Run the genetic algorithm a couple of times, and see whether it can crack the code.
--Experiment with different values for the parameters.
+To test the Algortihm:
+
+- Write some text into a String, this will be the code to crack.
+- You may limit your strings to lowercase English characters.
+- The Entity class will contain a String now.
+- The fitness value of an Entity shows how far its String is from the code.
+- Compute the fitness of an Entity like this: add the difference of the lengths of the strings, plus the number of differing character positions.
+- With this formula, the best fitness value is 0, which is reached when we have reached the code.
+- A crossover between two Entitys splits both strings at random positions, and joins their first and second parts.
+- A mutation changes a random character in the string of the Entity.
+- Run the genetic algorithm a couple of times, and see whether it can crack the code.
+- Experiment with different values for the parameters.
