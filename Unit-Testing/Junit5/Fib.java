@@ -2,7 +2,7 @@ package testingg;
 
 import java.util.Iterator;
 
-public class fib {
+public class Fib {
 	public static int fib(int n){
 		if (n < 0) throw new IllegalArgumentException("Negative...");
 		if(n==0) return 1;
