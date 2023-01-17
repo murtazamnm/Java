@@ -21,15 +21,15 @@ public class Exercises {
 	public String mostPassengers() {
 		if(data.isEmpty()) return "The file is empty";
 		List<String> flight = data.stream()
-								.sorted((a, b) -> Integer.compare(Integer.parseInt(a.split(" ")[2]), Integer.parseInt(b.split(" ")[2])))
-						        .collect(Collectors.toCollection(ArrayList::new));	
+					.sorted((a, b) -> Integer.compare(Integer.parseInt(a.split(" ")[2]), Integer.parseInt(b.split(" ")[2])))
+					.collect(Collectors.toCollection(ArrayList::new));	
 		return flight.get(flight.size()-1);
 	}
 	public String lessThanHundred(){
 		if(data.isEmpty()) return "There is no flight with passengers less than 100.";
 		List<String> lesThanHund = data.stream()
-									.filter(x -> Integer.parseInt(x.split(" ")[2]) < 100)
-									.collect(Collectors.toCollection(ArrayList::new));
+						.filter(x -> Integer.parseInt(x.split(" ")[2]) < 100)
+						.collect(Collectors.toCollection(ArrayList::new));
 		if(lesThanHund.isEmpty()) return "There is no flight with passengers less than 100.";
 		return lesThanHund.get(0);
 	}
