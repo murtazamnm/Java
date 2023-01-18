@@ -1,0 +1,8 @@
+Alitalia Rome 180
+Alitalia Pisa 82
+Germanwings Munich 96
+Germanwings Frankfurt 163
+NorwegianAir Bergen 202
+Wizzair London 184
+Wizzair Frankfurt 83
+Wizzair Lisbon 198
