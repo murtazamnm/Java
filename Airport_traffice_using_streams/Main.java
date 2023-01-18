@@ -9,14 +9,14 @@ public class Main {
 	public static void main(String[] args) {
 		ArrayList<String> data = new ArrayList<>();
 		try(BufferedReader br = new BufferedReader(new FileReader("src/input.txt"));){
-            String l;
-            while((l = br.readLine()) != null){
-                data.add(l);
-            }
-        }
-        catch(IOException e){
-            System.err.println(e);
-        }
+		    String l;
+		    while((l = br.readLine()) != null){
+			data.add(l);
+		    }
+		}
+		catch(IOException e){
+		    System.err.println(e);
+		}
 		Traffic tr = new Traffic(data);
 		System.out.println(tr.calcFrankfurt());
 		System.out.println(tr.mostPassengers());
