@@ -1,4 +1,4 @@
-a file containing daily air traffic data of Budapest airport. The file aims to store information about every outbound flight from Budapest. Each
+We have a file containing daily air traffic data of Budapest airport. The file aims to store information about every outbound flight from Budapest. Each
 line of the file contains two strings and an integer number, separated by whitespaces:
 - name of the airline that operates the given flight
 - destination of the flight
