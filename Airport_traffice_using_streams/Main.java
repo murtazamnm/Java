@@ -17,11 +17,11 @@ public class Main {
         catch(IOException e){
             System.err.println(e);
         }
-		Exercises e = new Exercises(data);
-		System.out.println(e.calcFrankfurt());
-		System.out.println(e.mostPassengers());
-		System.out.println(e.lessThanHundred());
-		System.out.println(e.mostTotalPassengers());
+		Traffic tr = new Traffic(data);
+		System.out.println(tr.calcFrankfurt());
+		System.out.println(tr.mostPassengers());
+		System.out.println(tr.lessThanHundred());
+		System.out.println(tr.mostTotalPassengers());
 	}
 	
 }
